@@ -27,6 +27,14 @@ html .r-loading--container.r-loading--customPosition {
         transform:translateY(0);
     }
 }
+.r-loading-children:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
 // mask children
 .r-loading-mask {
     display: block;
