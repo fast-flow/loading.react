@@ -2,7 +2,7 @@
   "name": "loading.react",
   "main": "lib/index.js",
   "version": "0.1.0",
-  "description": "React,Loading.Custom style!",
+  "description": "React,Loading.Custom style",
   "repository": "fast-flow/loading.react",
   "homepage": "http://fast-flow.github.io/loading.react",
   "gitUsername": "fast-flow",
