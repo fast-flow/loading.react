@@ -15,7 +15,7 @@ npm install loading.react --save
 
 ## Example
 
-[![Preview](./example/preview.png)](http://fast-flow.github.io/loading.react/example)
+[![Preview](./example/preview.gif)](http://fast-flow.github.io/loading.react/example)
 
 ## Online documentation
 
