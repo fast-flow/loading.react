@@ -1,0 +1,63 @@
+20170227 112247.702 [2088] Sauce Connect 4.4.0, build 2865 4ccb934-n -dirty
+20170227 112247.702 [2088] Trying to autodetect proxy settings
+20170227 112247.705 [2088] Starting up; pid 2088
+20170227 112247.705 [2088] Command line arguments: /Users/nimo/Documents/fast-flow/loading.react/node_modules/sauce-connect-launcher/sc/sc-4.4.0-osx/bin/sc --no-ssl-bump-domains all -P 5757 --logfile sauce_connect.log -u fast-flow -k **** --tunnel-identifier karma1488165757 --readyfile /var/folders/bt/bs02bjyd569gv_2_4bzqfyc00000gp/T/sc-launcher-readyfile 
+20170227 112247.707 [2088] Log file: sauce_connect.log
+20170227 112247.707 [2088] Pid file: /tmp/sc_client-karma1488165757.pid
+20170227 112247.707 [2088] Timezone: CST GMT offset: 8h
+20170227 112247.707 [2088] Using no proxy for connecting to Sauce Labs REST API.
+20170227 112252.712 [2088] Resolving saucelabs.com to 162.222.75.243 took 5005 ms.
+20170227 112253.544 [2088] ***********************************************************
+20170227 112253.545 [2088] A newer version of Sauce Connect (build 3214) is available!
+20170227 112253.545 [2088] Download it here:
+20170227 112253.545 [2088] https://saucelabs.com/downloads/sc-4.4.3-osx.zip
+20170227 112253.545 [2088] ***********************************************************
+20170227 112253.545 [2088] PROXY *** scproxy started ***
+20170227 112253.552 [2088] PROXY found DNS server 180.168.255.118
+20170227 112253.553 [2088] PROXY found DNS server 116.228.111.18
+20170227 112253.599 [2088] Started scproxy on port 54198.
+20170227 112253.600 [2088] Please wait for 'you may start your tests' to start your tests.
+20170227 112253.600 [2088] Starting secure remote tunnel VM...
+20170227 112258.929 [2088] Secure remote tunnel VM provisioned.
+20170227 112258.929 [2088] Tunnel ID: ac51b37f442b4b3db10ade7ca0f7aff7
+20170227 112300.593 [2088] Secure remote tunnel VM is now: booting
+20170227 112307.521 [2088] Secure remote tunnel VM is now: running
+20170227 112307.521 [2088] Remote tunnel host is: maki77010.miso.saucelabs.com
+20170227 112307.521 [2088] Using no proxy for connecting to tunnel VM.
+20170227 112311.665 [2088] Resolving tunnel hostname to 162.222.77.10 took 4144ms.
+20170227 112311.665 [2088] Starting Selenium listener...
+20170227 112311.666 [2088] Establishing secure TLS connection to tunnel...
+20170227 112311.666 [2088] [EVDNS] Added nameserver 180.168.255.118:53 as 0x5837ee0
+20170227 112311.666 [2088] [EVDNS] Added nameserver 116.228.111.18:53 as 0x583d950
+20170227 112311.666 [2088] MAIN connecting to maki77010.miso.saucelabs.com:443
+20170227 112311.921 [2088] Selenium listener started on port 5757.
+20170227 112314.674 [2088] MAIN DNS error: non-recoverable failure in name resolution (4)
+20170227 112314.674 [2088] MAIN DNS error: EVUTIL_EAI_FAIL
+20170227 112314.674 [2088] MAIN failed to connect KGP (socket error: Resource temporarily unavailable)
+20170227 112315.674 [2088] MAIN connecting to maki77010.miso.saucelabs.com:443
+20170227 112318.679 [2088] MAIN DNS error: non-recoverable failure in name resolution (4)
+20170227 112318.679 [2088] MAIN DNS error: EVUTIL_EAI_FAIL
+20170227 112318.679 [2088] MAIN failed to connect KGP (socket error: Resource temporarily unavailable)
+20170227 112320.682 [2088] MAIN connecting to maki77010.miso.saucelabs.com:443
+20170227 112323.689 [2088] MAIN DNS error: non-recoverable failure in name resolution (4)
+20170227 112323.689 [2088] MAIN DNS error: EVUTIL_EAI_FAIL
+20170227 112323.689 [2088] MAIN failed to connect KGP (socket error: Resource temporarily unavailable)
+20170227 112327.693 [2088] MAIN connecting to maki77010.miso.saucelabs.com:443
+20170227 112327.925 [2088] MAIN DNS error: non-recoverable failure in name resolution (4)
+20170227 112327.925 [2088] MAIN DNS error: EVUTIL_EAI_FAIL
+20170227 112327.925 [2088] MAIN failed to connect KGP (socket error: Resource temporarily unavailable)
+20170227 112335.926 [2088] MAIN connecting to maki77010.miso.saucelabs.com:443
+20170227 112338.940 [2088] MAIN DNS error: non-recoverable failure in name resolution (4)
+20170227 112338.940 [2088] MAIN DNS error: EVUTIL_EAI_FAIL
+20170227 112338.941 [2088] MAIN failed to connect KGP (socket error: Resource temporarily unavailable)
+20170227 112354.942 [2088] MAIN connecting to maki77010.miso.saucelabs.com:443
+20170227 112357.947 [2088] MAIN DNS error: non-recoverable failure in name resolution (4)
+20170227 112357.947 [2088] MAIN DNS error: EVUTIL_EAI_FAIL
+20170227 112357.947 [2088] MAIN failed to connect KGP (socket error: Resource temporarily unavailable)
+20170227 112425.382 [2088] Cleaning up.
+20170227 112425.382 [2088] Removing tunnel ac51b37f442b4b3db10ade7ca0f7aff7.
+20170227 112429.099 [2088] All jobs using tunnel have finished.
+20170227 112429.099 [2088] Waiting for the connection to terminate...
+20170227 112429.100 [2088] SC status: 1 after 1 tries
+20170227 112430.100 [2088] SC status: 3 after 2 tries
+20170227 112430.100 [2088] Connection closed (8).
