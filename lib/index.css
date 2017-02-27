@@ -30,8 +30,7 @@ html .r-loading--container {
 .r-loading-tip {
     position: relative;
 }
-// Must cover .r-loading--container
-html .r-loading--customPostion {
+html .r-loading--container.r-loading--customPostion {
     &>.r-loading-tip {
         left:auto;
         top:auto;
