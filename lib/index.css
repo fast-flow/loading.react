@@ -6,14 +6,14 @@
 }
 html .r-loading--fill {
     &,
-    .r-loading-loading,
-    .r-loading-children {
+    &>.r-loading-tip,
+    &>.r-loading-children {
         width: 100%;
         height: 100%;
     }
 }
 html .r-loading--container {
-    .r-loading-loading {
+    &>.r-loading-tip {
         z-index: 100;
         position: absolute;
         left:50%;
@@ -27,17 +27,22 @@ html .r-loading--container {
         */
     }
 }
+.r-loading-tip {
+    position: relative;
+}
 // Must cover .r-loading--container
 html .r-loading--customPostion {
-    .r-loading-loading {
+    &>.r-loading-tip {
         left:auto;
         top:auto;
+        width:100%;
+        height:auto;
         margin-top: 0;
         margin-left: 0
     }
 }
 html .r-loading--loading {
-    .r-loading-children {
+    &>.r-loading-children {
         // mask
         &:after {
             content: "";
@@ -51,18 +56,12 @@ html .r-loading--loading {
     }
 }
 /* Configurable style */
-.r-loading-loading {
+.r-loading-tip {
     width: 20px;
     height: 20px
 }
-.r-loading-loading-tip {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
 html .r-loading--loading {
-    .r-loading-children {
+    &>.r-loading-children {
         -webkit-filter: blur(.8px);
         -moz-filter: blur(.8px);
         -ms-filter: blur(.8px);

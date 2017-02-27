@@ -32,29 +32,50 @@ var App = React.createClass({
                 </Loading>
                 <hr />
                 r-loading--customPostion:
-                <div style={{width:100,height:100}}>
+                <div style={{width:100}}>
                     <Loading
-                        className="r-loading--fill r-loading--customPostion"
+                        className="r-loading--customPostion"
                         tip={(
                             <div style={{textAlign: 'center',lineHeight: '100px'}} >loading..</div>
                         )}
                      >
-                        <div style={{width:'100%',height:'100%',backgroundColor: '#ABCDEF'}}>abcdef</div>
+                        <div style={{width:'100',height:'100',backgroundColor: '#ABCDEF'}}>abcdef</div>
                     </Loading>
                 </div>
                 <hr/>
                 r-loading--customPostion: loading:false
-                <div style={{width:100,height:100}}>
+                <div style={{width:100}}>
                     <Loading
                         loading={false}
-                        className="r-loading--fill r-loading--customPostion"
+                        className="r-loading--customPostion"
                         tip={(
                             <div style={{textAlign: 'center',lineHeight: '100px'}} >loading..</div>
                         )}
                      >
-                        <div style={{width:'100%',height:'100%',backgroundColor: '#ABCDEF'}}>abcdef</div>
+                        <div style={{width:'100',height:'100',backgroundColor: '#ABCDEF'}}>abcdef</div>
                     </Loading>
                 </div>
+                <hr/>
+                When parent <code>loading:true</code>, children <code>loading</code> always <code>false</code>
+                <Loading >
+                    1<br />
+                    2<br />
+                    <Loading style={{width:40}} >
+                        sub content
+                    </Loading>
+                    3<br />
+                    4<br />
+                </Loading>
+                parent loading:false
+                <Loading loading={false} >
+                    1<br />
+                    2<br />
+                    <Loading style={{width:40}} >
+                        sub content
+                    </Loading>
+                    3<br />
+                    4<br />
+                </Loading>
             </div>
         )
     }

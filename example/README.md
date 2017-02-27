@@ -7,11 +7,11 @@
 ## Basic
 
 ````css
-.size--m .r-loading-loading {
+.size--m .r-loading-tip {
     width:30px;
     height:30px;
 }
-.size--l .r-loading-loading {
+.size--l .r-loading-tip {
     width:50px;
     height:50px;
 }
