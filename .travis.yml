@@ -9,7 +9,7 @@ only:
 - dev
 
 install:
-- npm install --registry=https://registry.npm.taobao.org
+- yarn
 
 script:
 - npm run test-ci
