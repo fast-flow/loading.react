@@ -14,11 +14,11 @@ var App = React.createClass({
                 <Loading />
                 tip:
                 <Loading tip="loading..." />
-                size-m:<Loading className="size--m" />
-                size-l:<Loading className="size--l" />
-                r-loading--fill:
+                size-m:<Loading size="m" />
+                size-l:<Loading size="l" />
+                size-fill:
                 <div style={{width:100, height:100}} >
-                    <Loading className="r-loading--fill" ></Loading>
+                    <Loading size="fill" ></Loading>
                 </div>
                 <hr />
                 children:
@@ -28,6 +28,18 @@ var App = React.createClass({
                 <hr />
                 children: loading:false :
                 <Loading loading={false} >
+                    <input type="text"/><button type="button" >search</button>
+                </Loading>
+                <hr />
+                empty span:
+                <div style={{width:100,height:100,border: '1px solid #ECECEC'}} >
+                    <Loading style={{height:'100%'}} >
+                        <span></span>
+                    </Loading>
+                </div>
+                <hr />
+                effect opacity
+                <Loading effect="opacity">
                     <input type="text"/><button type="button" >search</button>
                 </Loading>
                 <hr />
