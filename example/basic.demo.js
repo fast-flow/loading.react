@@ -43,10 +43,10 @@ var App = React.createClass({
                     <input type="text"/><button type="button" >search</button>
                 </Loading>
                 <hr />
-                r-loading--customPostion:
+                customPosition:
                 <div style={{width:100}}>
                     <Loading
-                        className="r-loading--customPostion"
+                        customPosition
                         tip={(
                             <div style={{textAlign: 'center',lineHeight: '100px'}} >loading..</div>
                         )}
@@ -87,6 +87,11 @@ var App = React.createClass({
                     </Loading>
                     3<br />
                     4<br />
+                </Loading>
+                <hr/>
+                classname:
+                <Loading className="loading--night" effect={false}>
+                    <input type="text"/><button type="button" >search</button>
                 </Loading>
             </div>
         )

@@ -7,13 +7,8 @@
 ## Basic
 
 ````css
-.size--m .r-loading-tip {
-    width:30px;
-    height:30px;
-}
-.size--l .r-loading-tip {
-    width:50px;
-    height:50px;
+html .loading--night .r-loading-mask {
+    background-color: rgba(1,1,1,.2);
 }
 ````
 
