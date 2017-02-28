@@ -6,6 +6,7 @@
 [![NPM version](https://img.shields.io/npm/v/loading.react.svg?style=flat)](https://npmjs.org/package/loading.react)
 [![NPM downloads](http://img.shields.io/npm/dm/loading.react.svg?style=flat)](https://npmjs.org/package/loading.react)
 
+[![Saucelabs](https://saucelabs.com/browser-matrix/loading_react.svg)](https://saucelabs.com/u/loading_react)
 
 ## Install
 
