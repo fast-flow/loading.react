@@ -20,7 +20,6 @@ if (!process.env.SAUCE_USERNAME || !process.env.SAUCE_ACCESS_KEY) {
       reporters: ['progress', 'saucelabs'],
       sauceLabs: {
         tunnelIdentifier: process.env.TRAVIS_JOB_NUMBER,
-        startConnect: false,
         recordVideo: false,
         testName: iPackage.name,
         recordScreenshots: false,
