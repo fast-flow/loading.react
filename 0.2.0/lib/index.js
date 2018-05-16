@@ -1,7 +1,8 @@
-import "./index.css"
-import { Component, PropTypes } from "react"
-import props from "./props"
+import { Component } from "react"
+import propTypes from 'prop-types'
 import classNames from "classnames"
+var util = require('util.react')
+require("./index.css");
 class Loading extends Component {
     getChildContext() {
         return {
@@ -10,6 +11,7 @@ class Loading extends Component {
     }
     render() {
         const self = this
+        const ref = util.ref(this)
         const pcls = self.props.prefixClassName
         let loading
         if (typeof self.context.loading !== 'undefined') {
@@ -20,6 +22,7 @@ class Loading extends Component {
         }
         return (
             <div
+                ref={ref`root`}
                 style={self.props.style}
                 className={classNames({
                     [`${pcls}`]: true,
@@ -58,11 +61,12 @@ class Loading extends Component {
 
     }
 }
-props(Loading)
+require('./props').default(Loading)
 Loading.childContextTypes = {
-    loading: PropTypes.bool
+    loading: propTypes.bool
 }
 Loading.contextTypes = {
-    loading: PropTypes.bool
+    loading: propTypes.bool
 }
 export default Loading
+module.exports = Loading
