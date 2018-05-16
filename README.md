@@ -1,27 +1,69 @@
 # loading.react
 
-> React,Loading.Custom style!
+<!--MR-D{tpl: 'home'}-->
 
-[![Build Status](https://api.travis-ci.org/fast-flow/loading.react.svg)](https://travis-ci.org/fast-flow/loading.react)
-[![NPM version](https://img.shields.io/npm/v/loading.react.svg?style=flat)](https://npmjs.org/package/loading.react)
-[![NPM downloads](http://img.shields.io/npm/dm/loading.react.svg?style=flat)](https://npmjs.org/package/loading.react)
+<!-- MARKRUN-HTML
+<style>h1 {display:none;}</style>
+-->
 
-[![Saucelabs](https://saucelabs.com/browser-matrix/loading_react.svg)](https://saucelabs.com/u/loading_react)
+<div class="face-one-intro">
+    <div class="face-one-intro-title">loading.react</div>
+    <h2 class="face-one-intro-desc">
+        loading react
+    </h2>
+    <div class="face-one-intro-tool">
+        <a href="https://onface.github.io/loading.react" class="face-one-intro-btn face-one-intro-btn--primary mr-online-hide" >在线文档</a>
+        <!-- MARKRUN-HTML
+            <a href="./doc/intro.md" class="face-one-intro-btn face-one-intro-btn--primary">指引</a>
+            <a href="http://github.com/onface/loading.react" class="face-one-intro-btn">GITHUB</a>
+        -->
+    </div>
+</div>
+<div class="face-one-feature">
+    <table style="width:100%;" data-comments="In order to github typesetting so use the table tag" >
+        <tr>
+            <td align="center" >
+                <div class="face-one-feature-item">
+                    <img src="./doc/theme/media/cogwheel.svg" alt="" class="face-one-feature-item-photo">
+                    <br />
+                        <div class="face-one-feature-item-label">定制开发</div>
+                        <div class="face-one-feature-item-desc">提供样式文件便于二次开发</div>
+                </div>
+            </td>
+            <td align="center" >
+                <div class="face-one-feature-item">
+                    <img src="./doc/theme/media/browser.svg" alt="" class="face-one-feature-item-photo">
+                    <br />
+                    <div class="face-one-feature-item-label">用户体验</div>
+                    <div class="face-one-feature-item-desc">界面细致、即时反馈，更好的用户体验</div>
+                </div>
+            </td>
+            <td align="center" >
 
-## Install
+                <div class="face-one-feature-item">
+                    <img src="./doc/theme/media/share.svg" alt="" class="face-one-feature-item-photo">
+                    <br />
+                        <div class="face-one-feature-item-label">组件生态</div>
+                        <div class="face-one-feature-item-desc">可与 <a href="http://onface.github.io/">onface</a> 中任意组件组合使用</div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
 
-```shell
-npm install loading.react --save
-```
-
-## Example
-
-[![Preview](./example/preview.gif)](http://fast-flow.github.io/loading.react/example)
-
-## Online documentation
-
-[Online](http://fast-flow.github.io/loading.react)
-
-## Change log
-
-[CHANGELOG](./CHANGELOG.md)
+<div class="face-one-face-one-feature-title">
+    Creator
+</div>
+<div class="face-one-feature face-one-feature--creator">
+    <table style="width:100%;" data-comments="In order to github typesetting so use the table tag" >
+        <tr>
+            <td align="center" >
+                <a class="face-one-feature-item" href="https://github.com/onface">
+                    <img src="https://github.com/onface.png" width="150 height="150" alt="" class="face-one-feature-item-avatar">
+                    <br />
+                    <div class="face-one-feature-item-label">onface</div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,9 +1,16 @@
-import { Component } from "react"
-import Loading from "../lib/index"
-import Test from 'react-addons-test-utils'
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
+import { expect } from 'chai';
+import { mount } from 'enzyme';
 
-it('className', function () {
-    var app = Test.renderIntoDocument(<Loading className="myclass" />)
-    expect(Test.scryRenderedDOMComponentsWithClass(app, 'myclass').length)
-        .toEqual(1)
+import Button from "../lib/index"
+import React, { Component } from "react"
+
+describe('<Basic />', () => {
+    it('has className', () => {
+        expect(
+            mount(<Button>demo</Button>).find('.face-btn').length
+        ).to.equal(1)
+    });
 })
